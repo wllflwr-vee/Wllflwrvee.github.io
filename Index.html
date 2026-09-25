@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <style>
+        /* WARM & COZY STYLE THEME */
+        body {
+            background-color: #FDFBF7; /* Soft warm cream background */
+            color: #5C554F;            /* Soft charcoal-brown text */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            color: #4A3525;            /* Deep espresso brown headline */
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        section {
+            background-color: #ffffff; /* Clean white cards for text readability */
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;       /* Smoothly rounded corners */
+            box-shadow: 0 4px 12px rgba(74, 53, 37, 0.06); /* Soft warm shadow */
+            max-width: 750px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            color: #4A3525;            /* Espresso brown section titles */
+            border-bottom: 3px solid #E5AD35; /* Soft mustard yellow accent line */
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+
+        /* AI IMAGERY LAYOUT */
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            max-width: 45%;
+            min-width: 250px;
+            height: auto;
+            border-radius: 8px;
+            border: 2px solid #F0EAE1;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        /* EMBEDDED PRESENTATION LAYOUT */
+        .presentation-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .presentation-container iframe {
+            border: 2px solid #E5AD35; /* Mustard yellow frame around presentation */
+            border-radius: 8px;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. WELCOMING HEADLINE -->
+    <header>
+        <h1>Welcome to Jedidiah's Page!</h1>
+    </header>
+
+    <!-- 2. ABOUT ME SECTION -->
+    <section>
+        <h2>About Me</h2>
+        <p>Hey! I'm Jedi and i love researching niche discoveries, facts on life, psychology, aspects of what make us human, and i love exploring the unexplored, both online and in cool places! i also have an appetite that sometimes concerns others...</p>
+    </section>
+
+    <!-- 3. MY FAVORITES & 4. AI IMAGERY SECTION -->
+    <section>
+        <h2>My Favorites</h2>
+        <p>I'm not keen on favorites, but some that i do have are: the color yellow, making art, cats, and cold seasons!.</p>
+        
+        <!-- Verified AI Images hosted from your Google Drive -->
+        <div class="image-container">
+            <img src="https://google.com" alt="Favorite 1">
+            <img src="https://google.com" alt="Favorite 2">
+        </div>
+    </section>
+
+    <!-- 5. EMBEDDED PRESENTATION SECTION -->
+    <section>
+        <h2>My Presentation</h2>
+        <div class="presentation-container">
+            <!-- Your mobile-optimized presentation link -->
+            <iframe src="https://google.com" width="600" height="360" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+    </section>
+
+</body>
+</html>
